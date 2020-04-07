@@ -1,0 +1,151 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.6em;
+  color: #444;
+  font-weight: normal;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #444;
+}
+
+li {
+  list-style: none;
+}
+
+.w {
+  width: 100%;
+}
+
+.glheader {
+  height: 100px;
+  background-color: #3D7680;
+  margin-bottom: 20px;
+  display: table;
+}
+
+.glheader__title {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.glmenu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.glmenu__item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 5px;
+  width: 20%;
+  height: 90px;
+  background-color: #76BFCC;
+  text-align: center;
+  display: table;
+}
+
+.glmenu__item li {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.calc {
+  width: 98%;
+  padding: 10px 0;
+  margin: 0 auto;
+  border: 1px solid #444;
+}
+
+.calc__title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.calc__table {
+  margin: 0 auto;
+}
+
+.calc__row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-bottom: 3px;
+}
+
+.calc__input input {
+  margin-right: 5px;
+  width: 120px;
+}
+
+.calc__item {
+  width: 100px;
+  border-bottom: 1px solid #ADF3FF;
+  float: left;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.calc__button {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.calc__button input {
+  background-color: #76BFCC;
+  border: none;
+  width: 100px;
+  height: 30px;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.calc__result {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ADF3FF;
+  height: 100px;
+  padding: 25px;
+}
+
+.calc__content1 {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+.calc__content2 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.calc__content2 span {
+  font-size: 3.6rem;
+}
+
+.calc__error {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #FF7B7B;
+}
+/*# sourceMappingURL=style.css.map */
